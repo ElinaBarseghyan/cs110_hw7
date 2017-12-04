@@ -13,7 +13,8 @@ public class Driver{
 		int[] arr = {9, 20, 3, 44, 88, 300};
 		ArrayUtils.reverse(arr);
 		System.out.println(ArrayUtils.stringifyArray(arr));
-		double doub = 15.4;
-		System.out.println(Math.factorial((int)doub));
+		double n = 15.4;
+		System.out.println(Math.factorial((int) n));
+		System.out.println(Math.factorialLoop((int) n));
 	}
 }
