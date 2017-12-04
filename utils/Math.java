@@ -8,7 +8,7 @@ public class Math {
 	}
 	public static long factorialLoop(int n) {
 		long result = 1;
-		for(int i = 0; i < n; i++) {
+		for(int i = 0; i <= n; i++) {
 			result = result * (i + 1);
 		}
 		return result;
